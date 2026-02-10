@@ -69,5 +69,5 @@ systemctl restart realm
 
 echo "-----------------------------------------------"
 echo "Realm has been installed/updated successfully!"
-echo "Status: \$(systemctl is-active realm)"
+echo "Status: $(systemctl is-active realm)"
 echo "-----------------------------------------------"
