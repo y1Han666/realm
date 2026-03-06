@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 1. 权限检查
+# 1. 权限检查123
 [[ $EUID -ne 0 ]] && echo "Error: Please run as root." && exit 1
 
 # 2. 架构检测
