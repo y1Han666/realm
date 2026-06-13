@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash1
 
 # 1. 权限检查123
 [[ $EUID -ne 0 ]] && echo "Error: Please run as root." && exit 1
